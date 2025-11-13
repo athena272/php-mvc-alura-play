@@ -1,5 +1,5 @@
-/* Aula 1 */
-.cabecalho {
+/* Lesson 1 */
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,7 @@
 
 
 
-/* SEÇÃO VÍDEOS */
+/* VIDEOS SECTION */
 
 .videos__container {
     display: flex;
@@ -26,9 +26,9 @@
     width: 300px;
 }
 
-/* grid vídeos */
+/* video grid */
 
-.descricao-video {
+.video-description {
     margin-top: 1rem;
     display: grid;
     text-align: start;
@@ -37,26 +37,26 @@
     grid-template-columns: auto 1fr;
 }
 
-.descricao-video img {
+.video-description img {
     grid-area: 1 / 1 / 3 / 2;
 }
 
-.descricao-video h3 {
+.video-description h3 {
     grid-area: 1 / 2 / 2 / 3;
     font-weight: 700;
     color: #444444;
 }
 
-.descricao-video .acoes-video {
+.video-description .video-actions {
     display: flex;
     justify-content: space-around;
 }
 
-.descricao-video .acoes-video a {
+.video-description .video-actions a {
     text-decoration: underline;
 }
 
-.descricao-video img {
+.video-description img {
     width: 2em;
     height: 2em;
     border-radius: 100%;

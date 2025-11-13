@@ -23,7 +23,7 @@
             <a class="logo" href="../index.php"></a>
 
             <div class="header__icons">
-                <a href="send-video.html" class="header__videos"></a>
+                <a href="./send-video.html" class="header__videos"></a>
                 <a href="../pages/login.html" class="header__logout">Logout</a>
             </div>
         </nav>
@@ -33,21 +33,21 @@
     <main class="container">
 
         <form class="container__form">
-            <h2 class="form__title">Login</h2>
+            <h2 class="form__title">Send a video!</h2>
                 <div class="form__field">
-                    <label class="field__label" for="usuario">User</label>
-                    <input name="user" class="field__input" required
-                        placeholder="Enter your username" id='usuario' />
+                    <label class="field__label" for="url">Embed link</label>
+                    <input name="url" class="field__input" required
+                        placeholder="For example: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' />
                 </div>
 
 
                 <div class="form__field">
-                    <label class="field__label" for="senha">Password</label>
-                    <input type="password" name="senha" class="field__input" required placeholder="Enter your password"
-                        id='senha' />
+                    <label class="field__label" for="titulo">Video title</label>
+                    <input name="titulo" class="field__input" required placeholder="Enter the video name"
+                        id='titulo' />
                 </div>
 
-                <input class="form__button" type="submit" value="Login" />
+                <input class="form__button" type="submit" value="Send" />
         </form>
 
     </main>

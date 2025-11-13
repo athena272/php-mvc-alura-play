@@ -22,9 +22,9 @@ body {
     text-align: center;
 }
 
-/* ESTILOS DO HEADER */
+/* HEADER STYLES */
 
-.cabecalho {
+.header {
     background-color: white;
     position: fixed;
     top: 0;
@@ -35,22 +35,22 @@ body {
 }
 
 .logo {
-    background-image: url(../img/cabecalho/Logo.png);
+    background-image: url(../img/cabecalho/logo.png);
     background-repeat: no-repeat;
     padding: 15px 65px;
     cursor: pointer;
 }
 
 
-.cabecalho__videos {
-    background-image: url(../img/cabecalho/video_call.png);
+.header__videos {
+    background-image: url(../img/cabecalho/video-call.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     padding: 15px;
 }
 
-.cabecalho__sair {
+.header__logout {
     margin: 0 20px;
     padding: 5px 10px;
     border-radius: 10%;
@@ -58,30 +58,30 @@ body {
 
 }
 
-/* ESTILOS DA SEÇÃO VÍDEOS */
+/* VIDEOS SECTION STYLES */
 
 .videos__container {
     color: black;
 }
 
-.mensagem {
+.message {
     display: grid;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.mensagem__imagem {
+.message__image {
     width: 30%;
 }
 
-.mensagem__titulo {
+.message__title {
     color: var(--azul-medio);
     font-weight: bold;
     font-size: 21px;
 }
 
-.pesquisar__input {
+.search__input {
     width: 260px;
     height: 32px;
     border: 1px solid rgb(211, 211, 211);
@@ -91,7 +91,7 @@ body {
     color: var(--azul-escuro);
 }
 
-.pesquisar__botao {
+.search__button {
     background-image: url(../img/cabecalho/search.png);
     background-repeat: no-repeat;
     background-position: center;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/flexbox.css">
     <title>AluraPlay</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
@@ -17,29 +17,29 @@
 
 <header>
 
-    <nav class="cabecalho">
-        <a class="logo" href="./index.html"></a>
+    <nav class="header">
+        <a class="logo" href="index.php"></a>
 
-        <div class="cabecalho__icones">
-            <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
-            <a href="./pages/login.html" class="cabecalho__sair">Sair</a>
+        <div class="header__icons">
+            <a href="pages/send-video.html" class="header__videos"></a>
+            <a href="./pages/login.html" class="header__logout">Logout</a>
         </div>
     </nav>
 
 </header>
 
-<ul class="videos__container" alt="videos alura">
+<ul class="videos__container" alt="alura videos">
     <li class="videos__item">
         <iframe width="100%" height="72%" src="https://www.youtube.com/embed/pA-EgOaF23I"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.png" alt="logo canal alura">
+        <div class="video-description">
+            <img src="./img/logo.png" alt="alura channel logo">
             <h3>Qual é o melhor hardware para programação com Mario Souto</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
+            <div class="video-actions">
+                <a href="pages/send-video.html">Edit</a>
+                <a href="pages/send-video.html">Delete</a>
             </div>
         </div>
     </li>
@@ -48,12 +48,12 @@
                 title="Voltando ao mercado após a maternidade: Ana Silvério" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.png" alt="logo canal alura">
+        <div class="video-description">
+            <img src="./img/logo.png" alt="alura channel logo">
             <h3>Voltando ao mercado após a mmaternidade: Ana Silvério</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
+            <div class="video-actions">
+                <a href="pages/send-video.html">Edit</a>
+                <a href="pages/send-video.html">Delete</a>
             </div>
         </div>
     </li>
@@ -62,12 +62,12 @@
                 title="Mercado de Trabalho | Desmistificando Mobile - Episódio 5" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.png" alt="logo canal alura">
+        <div class="video-description">
+            <img src="./img/logo.png" alt="alura channel logo">
             <h3>Mercado de Trabalho | Desmistificando Mobile...</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
+            <div class="video-actions">
+                <a href="pages/send-video.html">Edit</a>
+                <a href="pages/send-video.html">Delete</a>
             </div>
         </div>
     </li>
@@ -76,12 +76,12 @@
                 title="Conhecendo a linguagem Go | Hipsters.Talks" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.png" alt="logo canal alura">
+        <div class="video-description">
+            <img src="./img/logo.png" alt="alura channel logo">
             <h3>Conhecendo a linguagem Go | Hipsters.Talks</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
+            <div class="video-actions">
+                <a href="pages/send-video.html">Edit</a>
+                <a href="pages/send-video.html">Delete</a>
             </div>
         </div>
     </li>
